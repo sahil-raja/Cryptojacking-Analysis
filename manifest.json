@@ -1,0 +1,10 @@
+{
+  "name": "cryptoblocker",
+  "version": "1.0",
+  "description": "An extension which blocks known cryptojacking domains",
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
